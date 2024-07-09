@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://itay1itzhak.github.io/sitemap.xml
