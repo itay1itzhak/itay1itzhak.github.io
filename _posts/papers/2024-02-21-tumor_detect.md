@@ -7,7 +7,7 @@ venue: Breast 2021
 bib: NONE
 bib-ext: NONE
 pdf: NONE
-pdf-ext: https://www.sciencedirect.com/science/article/pii/S0960977621004562
+pdf-ext: NONE
 talk: NONE
 data: NONE
 code: NONE
