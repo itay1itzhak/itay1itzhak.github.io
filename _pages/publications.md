@@ -113,7 +113,6 @@ a.label:hover {
     <h3 id="{{ this_year }}-ref">{{this_year}}</h3>
 
     {% endif %}
-
     <!-- 			<div class="row"> -->
     <!--				<section class="8u -2u"> -->
     <header>
