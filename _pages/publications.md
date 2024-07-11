@@ -121,9 +121,6 @@ a.label:hover {
         {% unless post.pdf == 'NONE' %}
         <a href="/assets/papers/{{ post.base }}/{{ post.pdf }}" target="_blank">{{ post.title }}</a>
         {% endunless %}
-        {% unless post.pdf-ext == 'NONE' %}
-        <a href="{{ post.pdf-ext }}" target="_blank">{{ post.title }}</a>
-        {% endunless %}
         {% if (post.pdf == 'NONE' and post.pdf-ext == 'NONE')  %}
         {{ post.title }}
         {% endif %}
@@ -134,11 +131,6 @@ a.label:hover {
       {{ post.venue }} </font><br>
       {% unless post.pdf == 'NONE' %}
 <!--      <a href="/assets/papers/{{ post.base }}/{{ post.pdf }}" target="_blank"><span class="label label-success">PDF</span></a> -->
-      {% endunless %}
-
-{% unless post.pdf-ext == 'NONE' %}
-<!--
-      <a href="{{ post.pdf-ext }}" target="_blank"><span class="label label-success">PDF</span></a> -->
       {% endunless %}
 
       {% unless post.data == %}
