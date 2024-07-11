@@ -113,12 +113,16 @@ a.label:hover {
     <h3 id="{{ this_year }}-ref">{{this_year}}</h3>
 
     {% endif %}
+
     <!-- 			<div class="row"> -->
     <!--				<section class="8u -2u"> -->
     <header>
       <font style="font-weight:500;font-size:15px">
         {% unless post.pdf == 'NONE' %}
         <a href="/assets/papers/{{ post.base }}/{{ post.pdf }}" target="_blank">{{ post.title }}</a>
+        {% endunless %}
+        {% unless post.pdf-ext == 'NONE' %}
+        <a href="{{ post.pdf-ext }}" target="_blank">{{ post.title }}</a>
         {% endunless %}
         {% if (post.pdf == 'NONE' and post.pdf-ext == 'NONE')  %}
         {{ post.title }}
@@ -131,6 +135,12 @@ a.label:hover {
       {% unless post.pdf == 'NONE' %}
 <!--      <a href="/assets/papers/{{ post.base }}/{{ post.pdf }}" target="_blank"><span class="label label-success">PDF</span></a> -->
       {% endunless %}
+
+{% unless post.pdf-ext == 'NONE' %}
+<!--
+      <a href="{{ post.pdf-ext }}" target="_blank"><span class="label label-success">PDF</span></a> -->
+      {% endunless %}
+
       {% unless post.data == %}
       <a href="{{ post.data }}" target="_blank"><span class="label label-success">{{ post.data-name }}</span></a>
       {% endunless %}
