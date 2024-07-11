@@ -7,7 +7,7 @@ venue: Breast 2021
 bib: NONE
 bib-ext: NONE
 pdf: NONE
-pdf-ext: https://pubmed.ncbi.nlm.nih.gov/34509707/
+pdf-ext: https://www.sciencedirect.com/science/article/pii/S0960977621004562
 talk: NONE
 data: NONE
 code: NONE
