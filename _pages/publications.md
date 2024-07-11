@@ -101,10 +101,6 @@ a.label:hover {
 
 <div id="main">
 
-<!--  <div id="content" class="container">
-        Filter: <b>All</b> - <b><a href="bias.html">Model Analysis</a></b> - <b><a href="sem_rep.html">Semantic Representations</a></b> - <b><a href="downstream">Downstream Applications</a></b> 
-    <br> -->
-
 <!--    <h3> Conferences </h3> -->
     <br>
     {% for post in site.posts offset: 0 %}
