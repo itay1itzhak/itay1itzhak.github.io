@@ -132,7 +132,6 @@ a.label:hover {
       {% unless post.pdf == 'NONE' %}
 <!--      <a href="/assets/papers/{{ post.base }}/{{ post.pdf }}" target="_blank"><span class="label label-success">PDF</span></a> -->
       {% endunless %}
-
       {% unless post.data == %}
       <a href="{{ post.data }}" target="_blank"><span class="label label-success">{{ post.data-name }}</span></a>
       {% endunless %}
