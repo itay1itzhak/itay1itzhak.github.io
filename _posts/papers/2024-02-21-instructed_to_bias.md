@@ -7,10 +7,10 @@ venue: TACL 2024
 bib: NONE
 bib-ext: NONE
 pdf: NONE
-pdf-ext: https://arxiv.org/abs/2308.00225
+pdf-ext: NONE
 talk: NONE
 data: NONE
-code: https://github.com/itay1itzhak/InstructedToBias
+code: NONE
 layout: post
 poster: NONE
 slides: NONE

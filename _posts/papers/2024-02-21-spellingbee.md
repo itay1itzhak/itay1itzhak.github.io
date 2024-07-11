@@ -8,9 +8,9 @@ bib: NONE
 bib-ext: NONE
 pdf: NONE
 pdf-ext: NONE
-talk: https://aclanthology.org/2022.naacl-main.373.mp4
+talk: NONE
 data: NONE
-code: https://github.com/itay1itzhak/spellingbee
+code: NONE
 layout: post
 poster: NONE
 slides: NONE
