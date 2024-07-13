@@ -104,8 +104,6 @@ a.label:hover {
 <!--    <h3> Conferences </h3> -->
     <br>
     {% for post in site.posts offset: 0 %}
-
-
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
@@ -172,15 +170,6 @@ a.label:hover {
       {% unless post.bib-ext == 'NONE' %}
       <a href="{{ post.bib-ext }}" target="_blank"><span class="label label-default">BIB</span></a>
       {% endunless %}
-
-
-    </header>
-    <!-- <a href="{{ site.prefix }}{{ post.url }}" class="button button-style1">Read More</a> -->
-    <!--				</section> -->
-    <!--			</div> > -->
-    {% if this_year != next_year %}
-    <br>
-<h3 id="{{ next_year }}-ref">{{next_year}}</h3>
 
   {% endif %}
 <br/>
