@@ -107,8 +107,6 @@ a.label:hover {
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
-
-
     <!-- 			<div class="row"> -->
     <!--				<section class="8u -2u"> -->
     <header>
@@ -172,11 +170,6 @@ a.label:hover {
     <!-- <a href="{{ site.prefix }}{{ post.url }}" class="button button-style1">Read More</a> -->
     <!--				</section> -->
     <!--			</div> > -->
-    {% if this_year != next_year %}
-    <br>
-<h3 id="{{ next_year }}-ref">{{next_year}}</h3>
-
-  {% endif %}
 <br/>
     {% endfor %}
     
