@@ -15,32 +15,6 @@ This website was designed and developed by [**Aviv Bachana**](https://avivbach.g
 
 ---
 
-## 🚀 Installation
-
-To run the website locally, follow these steps:
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/username/itay-itzhak-website.git
-    cd itay-itzhak-website
-    ```
-
-2. **Install dependencies**:
-    Make sure you have [Node.js](https://nodejs.org/) installed, then run:
-    ```bash
-    npm install
-    ```
-
-3. **Run the development server**:
-    ```bash
-    npm start
-    ```
-
-4. **Open the website**:
-    Visit `http://localhost:3000` in your browser to view the website.
-
----
-
 ## 🛠️ Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
