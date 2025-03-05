@@ -798,7 +798,8 @@ section,
    line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  text-transform: none !important;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin-bottom: 10px;
 }
@@ -1339,4 +1340,9 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.publications .publications-item h4,
+.publications .publications-item .new {
+    text-transform: none !important;
 }
